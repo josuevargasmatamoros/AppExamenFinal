@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExamenFinal.Views.BienvenidaPage"
+             >
+    <VerticalStackLayout Padding="20,0,20,0">
+        <Label 
+    Text="Bienvenida Page"
+    VerticalOptions="Center" 
+    HorizontalOptions="Center"
+    FontSize="30"
+    TextColor="Blue" />
+
+        <Entry x:Name="TxtUserName" Placeholder="User Name" FontSize="23" Keyboard="Email" TextColor="Black" PlaceholderColor="Gray"
+         BackgroundColor="LightGray"
+         Margin="10,10,10,10" />
+
+        <Entry x:Name="TxtPassword" Placeholder="Password" FontSize="23" Keyboard="Text" PlaceholderColor="Gray"
+         BackgroundColor="LightGray"
+         Margin="10,0,10,10" />
+
+        <Button x:Name="BtnIngresar" Text="JOIN" FontSize="20" BackgroundColor="Green" TextColor="White"
+          Margin="10,10,10,10"  Clicked="BtnIngresar_Clicked"/>
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>

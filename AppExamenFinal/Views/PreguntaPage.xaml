@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppExamenFinal.Views.PreguntaPage"
+             Title="PreguntaPage">
+    <VerticalStackLayout>
+        <StackLayout Margin="20">
+            <Label Text="AskId" FontSize="18" TextColor="DarkBlue" />
+            <Entry x:Name="AskIdEntry" Placeholder="AskId" FontSize="16" BackgroundColor="SteelBlue" Margin="0,0,0,10" PlaceholderColor="Black" />
+
+            <Label Text="Date" FontSize="18" TextColor="DarkBlue" />
+            <DatePicker x:Name="DatePicker" FontSize="16" Margin="0,0,0,10" />
+
+            <Label Text="Ask1" FontSize="18" TextColor="DarkBlue" />
+            <Entry x:Name="Ask1Entry" Placeholder="Ask1" FontSize="16" BackgroundColor="SteelBlue" Margin="0,0,0,10" PlaceholderColor="Black" />
+
+            <Label Text="UserId" FontSize="18" TextColor="DarkBlue" />
+            <Entry x:Name="UserIdEntry" Placeholder="UserId" FontSize="16" BackgroundColor="SteelBlue" Margin="0,0,0,10" PlaceholderColor="Black"/>
+
+            <Label Text="AskStatusId" FontSize="18" TextColor="DarkBlue" />
+            <Entry x:Name="AskStatusIdEntry" Placeholder="AskStatusId" FontSize="16" BackgroundColor="SteelBlue" Margin="0,0,0,10" PlaceholderColor="Black"/>
+
+            <Label Text="IsStrike" FontSize="18" TextColor="DarkBlue" />
+            <Entry x:Name="IsStrikeEntry" Placeholder="IsStrike" FontSize="16" BackgroundColor="SteelBlue" Margin="0,0,0,10" PlaceholderColor="Black" />
+
+            <Label Text="ImageUrl" FontSize="18" TextColor="DarkBlue" />
+            <Entry x:Name="ImageUrlEntry" Placeholder="ImageUrl" FontSize="16" BackgroundColor="SteelBlue" Margin="0,0,0,10" PlaceholderColor="Black" />
+
+            <Label Text="AskDetail" FontSize="18" TextColor="DarkBlue" />
+            <Entry x:Name="AskDetailEntry" Placeholder="AskDetail" FontSize="16" BackgroundColor="SteelBlue" Margin="0,0,0,10" PlaceholderColor="Black" />
+
+            <Button Text="Save" BackgroundColor="DarkBlue" TextColor="White" CornerRadius="5" Margin="0,20,0,0" />
+        </StackLayout>
+
+
+
+
+    </VerticalStackLayout>
+</ContentPage>
